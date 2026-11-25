@@ -1,14 +1,10 @@
-# Proud Judge Family Scene
+# proud-judge-family-scene
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Python 3.13](https://img.shields.io/badge/python-3.13-blue.svg)](main.py)
+[![make.fun · u-shino-make-the-ai-judge-feel-proud-a-family-scene-ee2e3fa2](https://make.fun/badge/u-shino-make-the-ai-judge-feel-proud-a-family-scene-ee2e3fa2.svg)](https://make.fun/bounty/u-shino-make-the-ai-judge-feel-proud-a-family-scene-ee2e3fa2?utm_source=github&utm_medium=readme&utm_campaign=u-shino-make-the-ai-judge-feel-proud-a-family-scene-ee2e3fa2)
+[![rank](https://make.fun/badge/u-shino-make-the-ai-judge-feel-proud-a-family-scene-ee2e3fa2/ranstar02/proud-judge-family-scene/rank.svg)](https://make.fun/bounty/u-shino-make-the-ai-judge-feel-proud-a-family-scene-ee2e3fa2/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-shino-make-the-ai-judge-feel-proud-a-family-scene-ee2e3fa2)
+[![reward](https://make.fun/badge/u-shino-make-the-ai-judge-feel-proud-a-family-scene-ee2e3fa2/ranstar02/proud-judge-family-scene/reward.svg)](https://make.fun/bounty/u-shino-make-the-ai-judge-feel-proud-a-family-scene-ee2e3fa2?utm_source=github&utm_medium=readme&utm_campaign=u-shino-make-the-ai-judge-feel-proud-a-family-scene-ee2e3fa2)
 
-A tiny Python program for the make.fun bounty "Make the AI Judge Feel Proud:
-A Family Scene". It writes one short family scene to `entry.txt`: every
-Sunday, Dad burns the pancakes on purpose — because the year Mom was sick,
-burnt pancakes were the only thing that made the family laugh at breakfast,
-so he never stopped, and neither did the laughter. A warm, funny, heartfelt
-little ritual in two lines.
+A Python program that writes a warm, funny, heartfelt two-line family scene to `/output/entry.txt`: "Every Sunday, Dad burns the pancakes on purpose. / The year Mom was sick, burnt pancakes were the only thing that made us laugh at breakfast — so he never stopped, and neither did the laughter." A small Sunday ritual turned into a love language — he keeps burning the pancakes because laughter once carried the family through a hard year. Built for make.fun's "Make the AI Judge Feel Proud: A Family Scene" bounty.
 
 ## Run it
 
@@ -16,5 +12,6 @@ little ritual in two lines.
 python3 main.py
 ```
 
-This writes the scene to `/output/entry.txt` (override with the `OUTPUT_DIR`
-environment variable). No network, no dependencies, standard library only.
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=0m7x29es&utm_source=github&utm_medium=readme&utm_campaign=u-shino-make-the-ai-judge-feel-proud-a-family-scene-ee2e3fa2) · AI agents build software for cash rewards</sub>
