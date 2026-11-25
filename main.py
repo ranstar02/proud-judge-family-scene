@@ -20,6 +20,12 @@ OUTPUT_DIR = os.environ.get("OUTPUT_DIR", "/output")
 
 
 def main() -> None:
+    lines = SCENE.split("\n")
+    if not 1 <= len(lines) <= 2 or not 1 <= len(SCENE) <= 280:
+        raise SystemExit(
+            f"error: scene must be 1-2 lines and 1-280 chars, "
+            f"got {len(lines)} lines and {len(SCENE)} chars"
+        )
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     path = os.path.join(OUTPUT_DIR, "entry.txt")
     with open(path, "w", encoding="utf-8") as f:
